@@ -12,7 +12,7 @@ There's a module to create Amazon EC2 instance with Cheap High Availability
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-------:|:--------:|
 | ssh_key |SSH public key for connect to instance| string | |yes |
-| subnet_id | The VPC Subnet ID to launch in | list | [] | yes |
+| subnet_id | The VPC Subnet ID to launch in | string |  | yes |
 | vpc_id | The id of the specific VPC | string | []] | yes |
 | region | This is the AWS region | string | us-east-1 | no |
 | instance_type | The type of instance to start | string | t3.nano | no |
