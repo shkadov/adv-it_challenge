@@ -19,7 +19,7 @@ variable "instance_name" {
 
 variable "subnet_id" {
   description = "The VPC Subnet ID to launch in"
-  type = "list"
+  type = "string"
 }
 
 variable "vpc_id" {
