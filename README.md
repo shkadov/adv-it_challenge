@@ -1,5 +1,3 @@
-# adv-it_challenge
-
 ### An EC2 terraform module.
 
 ---
